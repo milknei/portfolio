@@ -27,9 +27,16 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
+import carrent from './carrent.jpg';
 import tripguide from './tripguide.png';
+import itstep from './itstep.jpeg';
+import udemy from './udemy.png';
+import training from './training.jpg';
+import promptai from './promptai.jpg';
+import link from './link.png';
+
+import yuriy from './yuriy.jpeg';
+import dmytro from './dmytro.jpeg';
 
 export {
   logo,
@@ -58,7 +65,13 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
   tripguide,
   logoSimple,
+  itstep,
+  udemy,
+  training,
+  promptai,
+  link,
+  yuriy,
+  dmytro,
 };

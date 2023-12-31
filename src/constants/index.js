@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
-  jobit,
-  tripguide,
   threejs,
+  itstep,
+  udemy,
+  training,
+  promptai,
+  yuriy,
+  dmytro,
 } from '../assets';
 
 export const navLinks = [
@@ -116,84 +116,99 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Front End Web Developerr',
+    company_name: 'IT Step',
+    icon: itstep,
+    iconBg: '#085494',
+    date: 'July 2022 - July 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Fast and high quality formatting of complex web documents.',
+      'Advanced knowledge and usage of HTML, CSS, JavaScript (ES6 and older versions).',
+      'Ability to create web applications based on Figma designs.',
+      'Checking and debugging the code of web documents.',
+      'Ability to handle errors.',
+      'Creating functions-handlers of various events in subtleties.',
+      'Understanding the implementation of client scenarios for different browsers.',
+      'Principles of creating forms and analyzing user data using regular expressions.',
+      'Principles of creating asynchronous requests using Ajax.',
+      'Version control systems.',
+      'Understand the principles of teamwork.',
+      'Using unit testing.',
+      'Basics of interacting with NodeJS.',
+      'Understand the details of using Webpack.',
+      'Ability to do data binding in an Angular application.',
+      'Applying Dependency Injection.',
+      'Understanding the intricacies of implementing React application.',
+      'Ability to use Flux and Redux..',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'JavaScript - The Complete Guide',
+    company_name: 'Udemy',
+    icon: udemy,
+    iconBg: '#FFFFFF',
+    date: 'Dec 2022 - Jan 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Learn JavaScript from scratch and in great detail - from beginner to advanced',
+      'All core features and concepts you need to know in modern JavaScript development',
+      'Everything you need to become a JavaScript expert and apply for JavaScript jobs',
+      'Project-driven learning with plenty of examples',
+      'All about variables, functions, objects and arrays',
+      'Object-oriented programming',
+      'Deep dives into prototypes, JavaScript engines & how it works behind the scenes',
+      'Manipulating web pages (= the DOM) with JavaScript',
+      'Event handling, asynchronous coding and Http requests',
+      'Meta-programming, performance optimization, memory leak busting',
+      'Testing, security and deployment',
+      'And so much more!',
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: `I'm happy to graduate a diligent, decent student with strong desire to improve.`,
+    name: 'Yuriy Ivaniv',
+    designation: 'Teacher',
+    company: 'IT STEP Academy',
+    image: yuriy,
   },
   {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: "Danylo always cares about user experience and quality of entrusted projects.",
+    name: 'Dmytro Kovalenko',
+    designation: 'IT/Cyber Security Specialist',
+    company: '',
+    image: dmytro,
   },
 ];
 
 const projects = [
+  {
+    name: 'Prompt AI',
+    description:
+      'A Full-Stack Web Application for creating and sharing AI prompts with other users with implemented Google autorisation.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'nextauth',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: promptai,
+    source_code_link: 'https://github.com/milknei/gym-rats-React-MUI',
+    deploy_link: 'https://prompt-ai-next-js-tailwind.vercel.app',
+  },
   {
     name: 'Car Rent',
     description:
@@ -213,12 +228,13 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/milknei/CarRent-NextJS-TS-Tailwind',
+    deploy_link: 'https://car-rent-mu.vercel.app/',
   },
   {
-    name: 'Job IT',
+    name: 'Training App',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web application that enables users to search for exercises, how to do them and view related YouTube videos',
     tags: [
       {
         name: 'react',
@@ -233,29 +249,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: training,
+    source_code_link: 'https://github.com/milknei/gym-rats-React-MUI',
+    deploy_link: 'https://gym-ratss.netlify.app/',
   },
 ];
 
